@@ -12,8 +12,14 @@ board = [
 ]
 
 def main():
+    print("Before Solving :")
     print_board(board)
 
+    back_track_solver(board)
+
+
+    print("After Solving :")
+    print_board(board)
 
 if __name__ == "__main__":
     main()
